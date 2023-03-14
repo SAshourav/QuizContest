@@ -1,0 +1,17 @@
+.nav-time{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    align-items: center;
+    background-color: darkcyan;
+}
+.nav-links a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+}
+.nav-links a:hover{
+    border: 1px solid white;
+    padding: 2px 5px;
+}
