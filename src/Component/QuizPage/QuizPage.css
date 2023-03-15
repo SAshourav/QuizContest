@@ -1,0 +1,18 @@
+span{
+    color: darkblue;
+}
+button{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkcyan;
+    margin-bottom: 20px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid darkcyan;
+}

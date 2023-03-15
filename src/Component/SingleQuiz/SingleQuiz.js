@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './SingleQuiz.css';
 
-const SingleQuiz = ({quiz, handleQuiz}) => {
+const SingleQuiz = ({quiz}) => {
     return (
         <div className='container'>
             <div className='quiz-logo'>
@@ -11,7 +11,7 @@ const SingleQuiz = ({quiz, handleQuiz}) => {
             <div className='quiz-details'>
                 <h2>{quiz.name}</h2>
                 <p>Number of question {quiz.total}</p>
-                <Link onClick={()=>{handleQuiz(quiz)}}  className='btn' to={`/quiz/${quiz.id}`}>Take Quiz</Link>
+                <Link className='btn' to={`/quiz/${quiz.id}`}>Take Quiz</Link>
             </div>
         </div>
     );
